@@ -1,4 +1,72 @@
 body {
   background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, 
   rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 600px;
+  margin: 120px auto;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1.5;
+  color: rgb(72, 63, 63);
+}
+
+form {
+  padding: 30px;
+  background-color: pink;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.instruction {
+  border: 1px solid plum;
+  padding: 16px;
+  width: 90%;
+  font-size: 18px;
+  border-radius: 40px;
+  line-height: 20px;
+  color: rgb(72, 63, 63);
+  border: none;
+}
+
+.submit-button {
+  border-radius: 40px;
+  padding: 15px 25px;
+  margin-left: 10px; 
+  background: paleturquoise;
+  color: rgb(84, 63, 63);
+  border: none;
+  font-size: 18px;
+  width: 150px;
+}
+
+.poem {
+  background-color: pink;
+  font-size: 16px;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid paleturquoise;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+ border-radius: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
 }
