@@ -7,6 +7,10 @@ body {
   background-attachment: fixed;
 }
 
+a {
+  color: rgb(133, 184, 184);
+}
+
 .container {
   max-width: 600px;
   margin: 120px auto;
@@ -42,6 +46,7 @@ form {
   line-height: 20px;
   color: rgb(72, 63, 63);
   border: none;
+  background: paleturquoise;
 }
 
 .submit-button {
@@ -67,6 +72,6 @@ form {
 
 footer {
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 30px;
 }
