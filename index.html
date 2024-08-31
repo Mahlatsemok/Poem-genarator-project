@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=devic e-width, initial-scale=1.0" />
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <link rel="stylesheet" href="src/style.css" />
   <title>AI Poem Generator</title>
 </head>
@@ -12,16 +13,12 @@
     <h1>Welcome to the Poem Generator</h1>
   </header>
   <main>
-    <form>
-      <input type="text", placeholder="Enter the topic you want to write about"
+    <form id="poem-generator-form">
+      <input type="text" placeholder="Enter the topic you want to write about"
       autofocus required autocomplete="off" class="instruction" />
       <input type="submit" class="submit-button" />
     </form>
-    <div class="poem">
-      She WalkS in the Beuty
-      <br />
-      By Lord Bryon..
-    </div>
+    <div class="poem" id="poem"></div>
   </main>
 </div> 
 <footer>
