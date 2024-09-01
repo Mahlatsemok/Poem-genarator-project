@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=devic e-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   <link rel="stylesheet" href="src/style.css" />
@@ -14,12 +17,15 @@
     <h1>Welcome to the Poem Generator</h1>
   </header>
   <main>
+    <div class="form-container">
     <form id="poem-generator-form">
       <input type="text" placeholder="Enter the topic you want to write about"
       autofocus required autocomplete="off" class="instruction" id="user-instruction" />
       <input type="submit" class="submit-button" />
-    </form>
-    <div class="poem" id="poem"></div>
+      </form>
+      <div class="hint">i.e: recipe, travel or baby names</div>
+    </div>
+    <div class="poem hidden" id="poem"></div>
   </main>
 </div> 
 <footer>
